@@ -37,8 +37,8 @@ class Manager extends Employee {
     super(name, department, salary);
   }
 
-  incrementSalary(salary: number): void {
-    this.salary = this.salary + salary;
+  incrementSalary(): void {
+    this.salary = this.salary + 10000;
   }
 }
 
