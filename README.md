@@ -1,4 +1,4 @@
-<!-- # Завдання 1
+ # Завдання 1
 Клас Student, який містить три властивості: name, age та grade. Замість того, щоб оголошувати ці властивості в тілі класу, потім у конструкторі, і нарешті надавати їм значення, напишіть скорочену ініціалізацію.
 ```ts
 class Student {
@@ -12,9 +12,9 @@ class Student {
     this.grade = grade;
   }
 }
-``` -->
+``` 
 
-<!-- # Завдання 2
+ # Завдання 2
 
 Ваше завдання полягатиме у створенні двох класів – Employee та Manager.
 
@@ -49,9 +49,9 @@ class Employee {
 class Manager extends Employee {
   // Реалізуйте конструктор та збільшіть salary на 10000
 }
-``` -->
+``` 
 
-<!-- # Завдання 3
+ # Завдання 3
 
 Ви створюєте гру, де є персонажі з різними ролями. Зараз ви працюєте над класом Wizard, який має реалізовувати два інтерфейси - ICharacter та ISpellCaster.
 
@@ -86,7 +86,7 @@ const wizard = new Wizard("Merlin", 15);
 wizard.introduce("I am the mighty wizard");
 wizard.castSpell();
 wizard.levelUp(); // Level up! New level is 16
-``` -->
+``` 
 
 # Завдання 4 \*
 
